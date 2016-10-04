@@ -1,0 +1,54 @@
+\documentclass[uplatex, a4paper, 12pt]{jsbook}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx, bookmarks=true, setpagesize=false]{hyperref}
+\usepackage{pxjahyper}
+
+\usepackage{thesis}
+
+\thesis{卒 業 論 文}
+\title{
+  \scalebox{1.0}{ほげほげほげほげ}\\
+  \vspace{0.3zh}
+  \scalebox{1.0}{ぴよぴよぴよぴよぴよぴよぴよぴよ}\\
+  \vspace{-3zh}
+}
+
+\date{\today}
+
+\teacher{[先生の名前] 教授/准教授/講師など}
+\vspace{-2.0zh}
+\organization{[xx]大学 [yy]学部 [zz]学科}
+\author{00-00000 山田　太郎}
+\vspace{-10zh}
+\begin{document}
+
+%% Front Matter
+\frontmatter{}
+%
+\include{frontmatter/main}
+%
+%% Main Matter
+\mainmatter{}
+%
+\include{introduction/main}
+%
+\include{related-research/main}
+%
+\include{method/main}
+%
+\include{experiment/main}
+%
+\include{conclusion/main}
+%
+%% Appendix
+% \appendix{}
+% \include{appendix}
+%
+%% Back Matter
+\backmatter{}
+%
+\include{backmatter/main}
+%
+
+\end{document}
